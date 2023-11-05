@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8E44AD; /* Purple background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.no{
+    position: relative;
+}
+.wrapper {
+    background-color: #0c0d0d; /* Light gray wrapper background color */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 50px auto;
+    position: relative;
+}
+
+i.fas.fa-heart {
+    font-size: 2em;
+    color: #E74C3C; /* Red heart color */
+}
+
+h2.question {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+button.yes, button.no {
+    background-color: #E74C3C; /* Red button background color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.yes:hover {
+    background-color: #C0392B; /* Darker red on hover */
+}
+
+@keyframes moveNo {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+    25%, 75% {
+        transform: translate(10px, -10px);
+    }
+    50% {
+        transform: translate(-10px, 10px);
+    }
+}
