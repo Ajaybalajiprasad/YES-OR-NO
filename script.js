@@ -5,6 +5,11 @@ const Yes = document.querySelector('.yes');
  Yes.addEventListener('click', () => {
     question.innerHTML = "Yes! you are an Idiot :)";
 });
+
+No.addEventListener('click', () => {
+    question.innerHTML = "No! you are an Idiot :)";
+});
+
 No.addEventListener('mouseover', () => {
     const wrapperRect = wrapper.getBoundingClientRect();
     const NoRect = No.getBoundingClientRect();
