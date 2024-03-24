@@ -10,6 +10,10 @@ No.addEventListener('click', () => {
     question.innerHTML = "No! you are an Idiot :)";
 });
 
+document.addEventListener('keydown', (event) => {
+    event.preventDefault();
+});
+
 No.addEventListener('mouseover', () => {
     const wrapperRect = wrapper.getBoundingClientRect();
     const NoRect = No.getBoundingClientRect();

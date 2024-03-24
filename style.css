@@ -42,6 +42,7 @@ button.yes, button.no {
     margin: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
+
 }
 
 button.yes:hover {
